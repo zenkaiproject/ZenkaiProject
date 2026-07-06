@@ -1,4 +1,6 @@
 Free OpenSource linktree Project by Zenkai
+Project Preview :
+https://zenkaiproject.web.id/
 
 ## Run Locally
 
