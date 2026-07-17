@@ -12,7 +12,8 @@ import {
   ShoppingBag,
   Briefcase,
   Camera,
-  Coffee
+  Coffee,
+  Music2
 } from 'lucide-react';
 
 export interface LinkItem {
@@ -56,7 +57,7 @@ export const DEFAULT_LINKS: LinkItem[] = [
     id: '4',
     title: 'Instagram',
     url: 'https://instagram.com/zenkaiproject99',
-    icon: 'Camera',
+    icon: 'Instagram',
     color: 'bg-pink-600'
   },
   {
@@ -65,11 +66,17 @@ export const DEFAULT_LINKS: LinkItem[] = [
     url: 'https://youtube.com/@zenkaitsu',
     icon: 'Youtube',
     color: 'bg-red-600'
+  },
+  {
+    id: '6',
+    title: 'TikTok',
+    url: 'https://tiktok.com/@zenkaitsu',
+    icon: 'Music2',
+    color: 'bg-black-600'
   }
 ];
 
 export const SOCIAL_LINKS: SocialItem[] = [
-  { id: 's1', platform: 'Instagram', url: 'https://instagram.com/zenkaiproject69', icon: Instagram },
   { id: 's3', platform: 'GitHub', url: 'https://github.com/zenkaiproject', icon: Github },
   { id: 's5', platform: 'Email', url: 'mailto:umaidifirmanardiyanto@gmail.com', icon: Mail },
 ];
@@ -83,5 +90,7 @@ export const ICON_MAP: Record<string, any> = {
   Globe,
   Camera,
   MessageCircle,
-  ExternalLink
+  Instagram,
+  ExternalLink,
+  Music2
 };
